@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "SegoeUI";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/segoeui.ttf");
+}
+
+@font-face {
+  font-family: "SegoeUI-Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./assets/segoeuib.ttf");
+}
+
+*{
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-family: "SegoeUI";
+}
+
+
+.main{
+	min-height: 100vh;
+	width: 100%;
+	background-color: #293744;
+	color: #fff;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.grid-pokemon{
+	max-width: 90%;
+	display: flex;
+  margin: 0 auto;
+}
+
+.container-card-pokemon{
+	flex: 1;
+	text-align: center;
+}
+
+
+.header {
+	flex-direction: column;
+}
+
+.center {
+	justify-content: center;
+}
+
+.item{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: 15px 0px 15px 0px;
+	display: inline-block;
+}
+
+.wrap {
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+hr{
+	color: #fff;
+	background-color: #27617e;
+	border: 1px solid #27617e;
+	display: block;
+	width: 100%;
+}
+
+
+@media only screen and (max-width:500px) {
+  .flex-container {	
+	  width: 95%;
+	}
+
+	.grid-pokemon{
+		max-width: 95%;
+	}
+
+	.item{
+		margin: 10px 0px 10px 0px;
+	}
+}

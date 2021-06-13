@@ -1,0 +1,61 @@
+.title-pokemon-img{
+	margin-top: 20px;
+	width: 250px;
+	height: 100px;
+}
+
+.sub-title-1{
+	font-size: 1.5em;
+}
+
+.sub-title-2{
+	font-size: 1.2em;
+	display: inline-block;
+	margin: 10px;
+}
+
+.icon-poke-ball{
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+}
+
+
+@media only screen and (max-width:500px) {
+  	.title-pokemon-img{
+		margin-top: 10px;
+		width: 180px;
+		height: 50px;
+	}
+
+	.sub-title-1{
+		font-size: 1.1em;
+	}
+
+	.sub-title-2{
+		font-size: .9em;
+		margin: 7px;
+	}
+
+	.icon-poke-ball{
+		height: 20px;
+		width: 20px;
+	}
+
+}
+
+@media only screen and (max-width:400px) {
+	.sub-title-1{
+		font-size: 1em;
+	}
+
+	.sub-title-2{
+		margin: 5px;
+	}
+
+	.icon-poke-ball{
+		height: 15px;
+		width: 15px;
+	}
+}
+

@@ -1,0 +1,18 @@
+.custom-select{
+  width: 90%;
+  margin: 10px 0px 10px 0px;
+  min-height: 40px;
+  font-size: 1.2em;
+  padding: 7px;
+  display: none;
+}
+
+.custom-select:hover{
+  cursor: pointer;
+}
+
+@media only screen and (max-width:600px) {
+  .custom-select{
+    display: block;
+  }
+}
